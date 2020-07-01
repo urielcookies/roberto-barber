@@ -8,10 +8,10 @@ import Register from './Register/Register';
 const Routes = ({history: {push}}: {history: {push: Function}}) => {
   return (
     <Switch>
-      <Route exact path='/login' component={Login}/>
-      <Route exact path='/home' component={Home}/>
-      <Route exact path='/register' component={Register}/>
-      <Redirect from='*' to='/login' />
+      <Route exact path='/roberto-barber/login' component={Login}/>
+      <Route exact path='/roberto-barber/home' component={Home}/>
+      <Route exact path='/roberto-barber/register' component={Register}/>
+      <Redirect from='*' to='/roberto-barber/login' />
     </Switch>
   );
 }

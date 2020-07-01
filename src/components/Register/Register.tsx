@@ -12,7 +12,7 @@ const Register = () => (
         Register
       </Header>
       <Message>
-        Have an account? <Link to='/login'>Log in</Link>
+        Have an account? <Link to='/roberto-barber/login'>Log in</Link>
       </Message>
       <Form size='large'>
         <Segment stacked>

@@ -12,7 +12,7 @@ const Login = () => (
         Log in
       </Header>
       <Message>
-        New to us? <Link to='/register'>Register</Link>
+        New to us? <Link to='/roberto-barber/register'>Register</Link>
       </Message>
       <Form size='large'>
         <Segment stacked>

@@ -9,7 +9,7 @@ import interactionPlugin from '@fullcalendar/interaction' // needed for dayClick
 const Home = () => {
   return (
     <div>
-      <Link to="login">Log Out</Link>
+      <Link to="/roberto-barber/login">Log Out</Link>
       <FullCalendar
         defaultView="timeGridWeek"
         header={{
