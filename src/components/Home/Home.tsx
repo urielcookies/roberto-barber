@@ -6,6 +6,8 @@ import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import interactionPlugin from '@fullcalendar/interaction' // needed for dayClick
 
+// come up with a clean UI/UX here
+
 const Home = () => {
   return (
     <div>
