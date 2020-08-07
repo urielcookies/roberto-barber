@@ -27,9 +27,7 @@ const Login = () => (
             placeholder='Password'
             type='password'
           />
-          <Button color='grey' fluid size='large'>
-            Login
-          </Button>
+          <Button color='grey' fluid size='large' content="Login" />
         </Segment>
       </Form>
     </Grid.Column>

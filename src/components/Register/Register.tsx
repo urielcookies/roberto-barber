@@ -31,9 +31,7 @@ const Register = () => (
             placeholder='Confirm Password'
             type='confirmPassword'
           />
-          <Button color='grey' fluid size='large'>
-            Register
-          </Button>
+          <Button color='grey' fluid size='large' content="Register" />
         </Segment>
       </Form>
     </Grid.Column>
